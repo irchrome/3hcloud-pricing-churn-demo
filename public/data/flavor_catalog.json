@@ -1,0 +1,182 @@
+[
+ {
+  "flavor": "s-1gb-1vcpu",
+  "tier": "Shared",
+  "ram_gb": 1,
+  "vcpu": 1,
+  "ratio": 1.0,
+  "price": {
+   "RUB": 180,
+   "USD": 1.5,
+   "KZT": 1100
+  }
+ },
+ {
+  "flavor": "s-2gb-1vcpu",
+  "tier": "Shared",
+  "ram_gb": 2,
+  "vcpu": 1,
+  "ratio": 2.0,
+  "price": {
+   "RUB": 330,
+   "USD": 3,
+   "KZT": 2200
+  }
+ },
+ {
+  "flavor": "e-1gb-1vcpu",
+  "tier": "CPU Optimized",
+  "ram_gb": 1,
+  "vcpu": 1,
+  "ratio": 1.0,
+  "price": {
+   "RUB": 262,
+   "USD": 2,
+   "KZT": 1560
+  }
+ },
+ {
+  "flavor": "e-2gb-1vcpu",
+  "tier": "General Purpose",
+  "ram_gb": 2,
+  "vcpu": 1,
+  "ratio": 2.0,
+  "price": {
+   "RUB": 423,
+   "USD": 4,
+   "KZT": 3050
+  }
+ },
+ {
+  "flavor": "e-4gb-2vcpu",
+  "tier": "General Purpose",
+  "ram_gb": 4,
+  "vcpu": 2,
+  "ratio": 2.0,
+  "price": {
+   "RUB": 840,
+   "USD": 9,
+   "KZT": 6000
+  }
+ },
+ {
+  "flavor": "e-8gb-4vcpu",
+  "tier": "General Purpose",
+  "ram_gb": 8,
+  "vcpu": 4,
+  "ratio": 2.0,
+  "price": {
+   "RUB": 1662,
+   "USD": 17,
+   "KZT": 12400
+  }
+ },
+ {
+  "flavor": "e-16gb-6vcpu",
+  "tier": "Memory Optimized",
+  "ram_gb": 16,
+  "vcpu": 6,
+  "ratio": 2.67,
+  "price": {
+   "RUB": 3400,
+   "USD": 34,
+   "KZT": 22800
+  }
+ },
+ {
+  "flavor": "e-24gb-8vcpu",
+  "tier": "Memory Optimized",
+  "ram_gb": 24,
+  "vcpu": 8,
+  "ratio": 3.0,
+  "price": {
+   "RUB": 6000,
+   "USD": 50,
+   "KZT": 34000
+  }
+ },
+ {
+  "flavor": "e-32gb-10vcpu",
+  "tier": "Memory Optimized",
+  "ram_gb": 32,
+  "vcpu": 10,
+  "ratio": 3.2,
+  "price": {
+   "RUB": 8466,
+   "USD": 68,
+   "KZT": 45200
+  }
+ },
+ {
+  "flavor": "e-48gb-12vcpu",
+  "tier": "Memory Optimized",
+  "ram_gb": 48,
+  "vcpu": 12,
+  "ratio": 4.0,
+  "price": {
+   "RUB": 12000,
+   "USD": 99,
+   "KZT": 66000
+  }
+ },
+ {
+  "flavor": "e-64gb-16vcpu",
+  "tier": "Memory Optimized",
+  "ram_gb": 64,
+  "vcpu": 16,
+  "ratio": 4.0,
+  "price": {
+   "RUB": 16000,
+   "USD": 132,
+   "KZT": 88000
+  }
+ },
+ {
+  "flavor": "e-128gb-24vcpu",
+  "tier": "Memory Optimized",
+  "ram_gb": 128,
+  "vcpu": 24,
+  "ratio": 5.33,
+  "price": {
+   "RUB": 30000,
+   "USD": 250,
+   "KZT": 170000
+  }
+ },
+ {
+  "flavor": "private-e-12gb-4vcpu",
+  "tier": "Dedicated (Private)",
+  "ram_gb": 12,
+  "vcpu": 4,
+  "ratio": 3.0,
+  "price": {
+   "RUB": 3000,
+   "USD": 40,
+   "KZT": 20000
+  }
+ },
+ {
+  "flavor": "private-e-32gb-16vcpu",
+  "tier": "Dedicated (Private)",
+  "ram_gb": 32,
+  "vcpu": 16,
+  "ratio": 2.0,
+  "price": {
+   "RUB": 9814,
+   "USD": 120,
+   "KZT": 60000
+  }
+ },
+ {
+  "flavor": "private-e-96gb-16vcpu",
+  "tier": "Dedicated (Private)",
+  "ram_gb": 96,
+  "vcpu": 16,
+  "ratio": 6.0,
+  "price": {
+   "RUB": 28000,
+   "USD": 280,
+   "KZT": 180000
+  }
+ }
+]
