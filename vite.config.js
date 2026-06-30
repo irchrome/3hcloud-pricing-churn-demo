@@ -6,4 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: process.env.GHPAGES_BASE || '/3hcloud-pricing-churn-demo/',
+  // Явный пустой PostCSS-конфиг: не даёт Vite подняться вверх по дереву и
+  // подхватить чужой ~/postcss.config.js (с tailwind, которого тут нет).
+  css: { postcss: {} },
 })

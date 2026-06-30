@@ -149,10 +149,10 @@ export function mrrByTier(accounts, { multipliers, dedicatedPremium }, currency)
   return Object.values(agg).map(x => ({ tier: x.tier, old: Math.round(x.old), neu: Math.round(x.neu) }))
 }
 
-export function fmtMoney(v, currency) {
+export function fmtMoney(v, currency, locale = 'en-US') {
   if (v == null) return '—'
   const sym = CURRENCY_SYMBOL[currency] || ''
-  const n = Math.round(v).toLocaleString('ru-RU')
+  const n = Math.round(v).toLocaleString(locale)
   return currency === 'USD' ? `${sym}${n}` : `${n} ${sym}`
 }
 
